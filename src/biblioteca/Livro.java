@@ -6,6 +6,7 @@ class Livro extends ItemBiblioteca {
         super(titulo, autor);
     }
 
+    @Override
     public String obterInformacoes() {
         return "Livro: " + titulo + ", Autor: " + autor;
     }

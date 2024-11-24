@@ -12,6 +12,7 @@ class Revista extends ItemBiblioteca {
         return edicao;
     }
 
+    @Override
     public String obterInformacoes() {
         return "Revista: " + titulo + ", Autor: " + autor + ", Edição: " + edicao;
     }
