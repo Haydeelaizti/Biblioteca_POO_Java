@@ -1,5 +1,7 @@
 package biblioteca;
 
+import java.util.Scanner;
+
 public class SistemaBiblioteca {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

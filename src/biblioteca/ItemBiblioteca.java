@@ -1,4 +1,5 @@
 package biblioteca;
+import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,5 +20,5 @@ abstract class ItemBiblioteca {
         return autor;
     }
 
-        public abstract String obterInformacoes();
+    public abstract String obterInformacoes();
 }

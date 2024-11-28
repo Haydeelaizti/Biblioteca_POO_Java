@@ -1,6 +1,9 @@
 package biblioteca;
 
-class SistemaEmprestimo implements Relatorio {
+import java.util.ArrayList;
+import java.util.List;
+
+public class SistemaEmprestimo implements Relatorio {
     private List<ItemBiblioteca> itens;
     private List<Usuario> usuarios;
 

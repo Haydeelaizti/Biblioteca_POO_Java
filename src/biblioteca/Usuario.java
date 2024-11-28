@@ -1,6 +1,6 @@
 package biblioteca;
 
-class Usuario {
+public class Usuario {
     private String nome;
     private String matricula;
 

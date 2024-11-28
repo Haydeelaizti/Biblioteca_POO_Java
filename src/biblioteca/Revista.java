@@ -1,6 +1,6 @@
 package biblioteca;
 
-class Revista extends ItemBiblioteca {
+public class Revista extends ItemBiblioteca {
     private int edicao;
 
     public Revista(String titulo, String autor, int edicao) {
